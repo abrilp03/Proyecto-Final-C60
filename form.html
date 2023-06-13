@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/icono.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header class="cabecera">
+        <div>
+            <img class="logo" src="./img/icono.png" alt="logo">
+            <h1 class="nombre">NT WORLD</h1>
+        </div>
+
+        <nav class="menuNav">
+            <ul class="menuList">
+                <li class="menuItem"><a href="./index.html">Inicio</a></li>
+                <li class="menuItem"><a href="./gallery.html">Galeria</a></li>
+                <li class="menuItem"><a class="activo" href="./form.html">Formulario</a></li>
+                <li class="menuItem"><a href="./aboutUs.html">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <form class="form">
+            <h2 class="tituloForm">UNETE A NUESTRO SERVER!</h2>
+
+            <label for="nombre">Usuario de Minecraft:</label>
+            <input type="text" name="nombre" id="nombre"/>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email"/>
+            <br>
+            <label for="telefono">Telefono:</label>
+            <input type="number" name="telefono" id="telefono"/>
+            <br>
+            <div class="botones"> 
+            <input type="reset" value="Reset"/>
+            <input type="submit" value="Enviar"/>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>Diseñado por Palomares Abril - C60 - &copy; 2023</p>
+    </footer>
+</body>
+
+</html>

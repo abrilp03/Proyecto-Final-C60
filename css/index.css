@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    background-color: rgb(132, 132, 132);
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+/*HEADER Y NAV*/
+.cabecera {
+    background-color: rgb(28, 28, 28);
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    padding: 5px 10px;
+    margin-top: 15px;
+    height: 70px;
+}
+
+.nombre {
+    color: rgb(234, 204, 89);
+    font-family: 'Suez One', serif;
+    display: inline-flex;
+    position: relative;
+    bottom: 30px;
+    margin-left: 5px;
+}
+
+.menuNav {
+    width: 100%;
+}
+
+.menuList {
+    margin: 0;
+    padding: 0px;
+    border-bottom: 3px solid rgb(234, 204, 89);
+    display: flex;
+}
+
+.menuItem {
+    list-style: none;
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: rgb(234, 204, 89);
+    text-decoration: none;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(28, 28, 28);
+}
+
+nav ul li a.activo {
+    color: rgb(28, 28, 28);
+    background-color: rgb(234, 204, 89);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: rgb(58, 202, 169);
+    text-decoration: wavy;
+}
+
+footer {
+    color: rgb(234, 204, 89);
+    background-color: rgb(28, 28, 28);
+    display: flex;
+    justify-content: flex-end;
+    justify-self: end;
+    padding: 0px 10px;
+    margin-top: auto;
+}
+
+/*FIN HEADER Y NAV*/
